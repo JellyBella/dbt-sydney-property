@@ -1,0 +1,53 @@
+version: 2
+
+seeds:
+  - name: asgs_nsw
+    description: >
+      The Australian Statistical Geography Standard (ASGS) is a classification 
+      of Australia into a hierarchy of statistical areas. First introduced in 2011, 
+      the ASGS replaced the Australian Standard Geographical Classification (ASGC) 
+      that had been used since 1984. The ASGS is a social geography, developed 
+      to reflect the location of people and communities, and used for the release 
+      and analysis of statistics and other data. The ASGS is updated every 5 years 
+      to account for growth and change in Australia's population, economy and infrastructure.
+    columns:
+      - name: id
+      - name: postcode
+      - name: locality
+      - name: state
+      - name: long
+      - name: lat
+      - name: dc
+      - name: type
+      - name: status
+      - name: sa3
+      - name: sa3name
+      - name: sa4
+      - name: sa4name
+      - name: region
+      - name: Lat_precise
+      - name: Long_precise
+      - name: SA1_MAINCODE_2011
+      - name: SA1_MAINCODE_2016
+      - name: SA2_MAINCODE_2016
+      - name: SA2_NAME_2016
+      - name: SA3_CODE_2016
+      - name: SA3_NAME_2016
+      - name: SA4_CODE_2016
+      - name: SA4_NAME_2016
+      - name: RA_2011
+      - name: RA_2016
+      - name: MMM_2015
+      - name: MMM_2019
+      - name: ced
+      - name: altitude
+      - name: chargezone
+      - name: phn_code
+      - name: phn_name
+      - name: lgaregion
+      - name: lgacode
+      - name: electorate
+      - name: electoraterating
+    config:
+      column_types:
+        postcode: varchar(10)

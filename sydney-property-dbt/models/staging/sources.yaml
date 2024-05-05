@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: realestate_sydney
+    # schema: realestate_sydney # detault the same as name
+    description: sydney real estate sales last 12 months
+    tables: 
+      - name: realestate_analytics
+        description: summary of API call params and response pagination information
+      - name: realestate_analytics__resolved_localities
+        description: Test
+      - name: realestate_analytics__resolved_query_localities
+        description: Test
+      - name: realestate_analytics__tiered_results
+        description: tier 1 are of the exact query location, 2 are surronding areas. only tier 1 results are stored
+      - name: realestate_analytics__tiered_results__results
+        description: real estate listing details
+      - name: realestate_analytics__tiered_results__results__agency__logo__images
+        description: agency logo image url
+      - name: realestate_analytics__tiered_results__results__images
+        description: real estate listing images
+      - name: realestate_analytics__tiered_results__results__listers
+        description: real estate listing lister information
+      - name: realestate_analytics__tiered_results__property_features
+        description: real estate listing feature
+      - name: realestate_analytics__tiered_results__property_features__features
+        description: real estate listing feature details

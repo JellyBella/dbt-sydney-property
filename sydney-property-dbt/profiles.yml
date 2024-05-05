@@ -1,0 +1,10 @@
+sydney_property:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      schema: dbt
+      project: realestateanalytics-420602
+      location: us-west1
+      threads: 2
