@@ -17,6 +17,5 @@ select
     max_page_number_available,
     _dlt_load_id,
     _dlt_id,
-    current_datetime() as dbt_loaded_at_utc,
-    '{{ var("job_id") }}' as dbt_job_id
+    current_datetime() as dbt_loaded_at_utc
 from source
