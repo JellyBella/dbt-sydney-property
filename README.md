@@ -4,9 +4,7 @@
     <img src="img/Cover.jpg"/>
 </p>
 
-This project explores the Sydney Real Estate dataset collected from (https://www.realestate.com.au), covering 12 months data from April 2023 to April 2024
-
-dbt core is used for data transformation, cleaning data, removing duplicates. BigQuery serve as data warehouse and Tableau for data visualization.
+This project delves into the Sydney Real Estate dataset sourced from Realestate.com.au, encompassing data spanning 12 months from April 2023 to April 2024. Leveraging dbt core, the initiative focuses on robust data transformations, cleansing operations, and the elimination of duplicates. BigQuery serves as the centralized data warehouse, while Tableau is harnessed for intuitive and compelling data visualization, facilitating comprehensive insights into Sydney's dynamic real estate landscape.
 
 ## Project Motivation
 
