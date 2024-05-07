@@ -42,7 +42,3 @@ models:
       +tags: reporting
       +docs:
         node_color: "#4169E1" # blue
-
-vars:
-  snowplow:context:performance_timing: false
-  snowplow:context:useragent: false
