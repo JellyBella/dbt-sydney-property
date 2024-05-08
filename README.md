@@ -24,7 +24,7 @@ Realestate.com.au is the top choice for Aussies in property transactions, but ge
 
 ## Setup Instructions
 
-1. **Environment Setup**: Clone the repository and install the required dependencies: 'pip install -r requirements.txt'
+1. **Environment Setup**: Clone the repository and install the required dependencies: `pip install -r requirements.txt`
 2. **Database Configuration**: Set up Google Cloud Storage, Google Cloud CLI and BigQuery
 3. **Database Connection**: Export to Gsheets, setup regular refresh option for most up-to-date data
 4. **Data Visualization**: Bigquery is not a native connection for Tableau Public, instead we are using Google Drive connector
